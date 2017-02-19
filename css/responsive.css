@@ -1,0 +1,38 @@
+@media all and (max-width: 1200px) {
+	
+
+}
+
+
+@media all and (max-width: 768px) {
+	
+	#main-nav {
+		background-color: #fff;
+		border: 0px;
+		
+	
+	}
+
+}
+
+
+
+@media all and (max-width: 680px) {
+	
+
+}
+
+
+
+@media all and (max-width: 480px) {
+	
+	h1 {
+		font-size: 2em;
+	}
+	
+	h2 {
+		font-size: 1em;
+	}
+	
+	
+}

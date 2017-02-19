@@ -1,0 +1,122 @@
+/*-----------general styles start------------*/
+
+body {
+	font-family: 'Droid Serif', sans-serif;
+	color: #777777;
+}
+
+#main-nav,
+h1,
+button {
+	font-family: 'Montserrat';
+	font-weight: 700;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+
+
+
+/*------------ general styles end -------------*/
+
+/*------------ navbar styles start ------------*/
+
+#main-nav {
+	margin-left: 0;
+	margin-right: 0;
+	position: absolute;
+	background-color: transparent;
+	border: none;
+	text-transform: uppercase;
+	color: #333333;
+} 
+
+.navbar-nav {
+	text-align: right;
+}
+
+.navbar-brand {
+	font-family: 'Droid Serif', sans-serif;
+	text-transform: none;
+	font-weight: 400;
+}
+
+#main-nav.scroll {
+	background-color: #fff;
+}
+
+#main-nav.scroll ul.navbar-nav a {
+		color: #1ac056;
+		text-decoration: none;
+	}
+
+#main-nav ul.navbar-nav a:hover {
+	color: #0ed8d6;
+}
+
+#main-nav.scroll ul.navbar-nav a:hover {
+	color: black;
+}
+
+
+
+/*------------ navbar styles end --------------*/
+
+/*------------ header styles start ------------*/
+
+
+#header-content {
+	
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	margin: auto;
+	transform: translateY(-50%);
+	color: #fff;
+}
+
+h1 {
+	text-transform: uppercase;
+	font-size: 4em;	
+}
+
+header {
+	background: linear-gradient(
+					  rgba(0, 0, 0, 0.7), 
+					  rgba(0, 0, 0, 0.7)
+	            ),
+		url(../img/header/pictures_on_the_wall.jpg);
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	height: 100vh;
+	width: 100%;
+	
+}
+
+button {
+	background-color: #0ed8d6;
+	
+}
+
+button a {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 15px;
+	
+}
+
+
+/*------------ header styles end ------------*/
+
+/*------------ services styles start --------*/
+
+
+
+
+
+
+/*------------- services styles end ---------*/
