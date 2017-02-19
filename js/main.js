@@ -23,9 +23,11 @@ $(function() {
 		if ($(window).scrollTop() >= 90) {
 			$('#main-nav').addClass('scroll');
 			$('#main-nav').css({'transition': 'all 0.3s' });
+			$('#brand').addClass('scroll');
 		}
 		else {
-			$('#main-nav').removeClass('scroll')
+			$('#main-nav').removeClass('scroll');
+			$('#brand').removeClass('scroll');
 		}
 	});
 		/*-------- scroll menu color end ------------*/
