@@ -15,10 +15,17 @@
 <nav id="main-nav" class="navbar navbar-default navbar-fixed-top">
 	<div class="container-fluid">
 		<div class="navbar-header">
-			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a id="brand" class="navbar-brand" href="#">Bootstrap Grid</a> </div>
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
+				 <span class="sr-only">Toggle navigation</span> 
+				 <span class="icon-bar"></span> 
+				 <span class="icon-bar"></span>
+				  <span class="icon-bar"></span> 
+			  </button> 
+			  <a id="brand" class="navbar-brand" href="#header-container"><i class="fa fa-home fa-2x" aria-hidden="true"></i></a>
+		</div>
 		<div class="collapse navbar-collapse" id="main-menu">
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#services">services</a></li>
+				<li><a href="#services-section">services</a></li>
 				<li><a href="#portfolio">portfolio</a></li>
 				<li><a href="#about">about</a></li>
 				<li><a href="#team">team</a></li>
@@ -37,45 +44,149 @@
 
 
 	<!-------------- header start------------------->
-	<header>
+	<header id="header-container">
 		<div id="header-content">
 			<h2>Nam libero tempore, cum soluta </h2>
 			<h1>lorem ipsum dolor</h1>
-			<button type="button" class="btn btn-info"><a href="#services">View more</a></button>
+			<a href="#services-section" class="btn btn-info">View more</a>
 		</div>
 	</header>
 	<!-------------- header end -------------------->
 	
 	<!--------------- services start --------------->
-	<section id="services">
+	<section id="services-section">
 		
 		<div class="container">
 			<div class="row">
-				<h1>Services</h1>
-				<h3>Praesentium voluptatum deleniti atque corrupti</h3>
+				<header id="serv-sec">
+					<h3>Services</h2>
+					<p>Praesentium voluptatum deleniti atque corrupti</p>
+				</header>
 			</div>
 			<div class="row">
-				<div class="col-lg-4 col-sm-12">Web development</div>
-				<div class="col-lg-4 col-sm-12">E-Commerce</div>
-				<div class="col-lg-4 col-sm-12">Web design</div>
-				
-				
-				
+				<div class="col-lg-4 col-sm-4 kontener-ikonkowy">
+					<i class="fa fa-briefcase fa-3x ikonki" aria-hidden="true"></i>
+					<h5>Web development</h5>
+					<p>cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis</p>
+				</div>
+				<div class="col-lg-4 col-sm-4 kontener-ikonkowy">
+					<i class="fa fa-cloud-download fa-3x ikonki" aria-hidden="true"></i>
+					<h5>E-Commerce</h5>
+					<p>cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis</p>
+				</div>
+				<div class="col-lg-4 col-sm-4 kontener-ikonkowy">
+					<i class="fa fa-comment fa-3x ikonki" aria-hidden="true"></i>
+					<h5>Web design</h5>
+					<p>cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis</p>
+				</div>
 			</div>
-			
 		</div>
-		
-		
-		
-		
-		
-		
-		
 	</section>
 	
 	
 	
 	<!--------------- services end --------------->
+	
+	
+	
+	<!--------------- portfolio start------------->
+	
+	 
+	<section id="portfolio">
+		<div class="container">
+			<div class="row">
+				<header id="portfolio-header">
+					<h3>Portfolio</h2>
+					<p>Praesentium voluptatum deleniti atque corrupti</p>
+				</header>
+			</div>
+			<div class="row">
+				<div id="portfoliodiv">
+					<div class="col-lg-4 col-md-4 col-sm-6">
+						<div class="portfolio-text" >
+							<div class="portfolio-image-container">
+								<div id="portfolio1" class="portfolio-image">
+									<div class="plusik">
+									<a href="#"><i class="fa fa-plus fa-3x" aria-hidden="true"></i></a></div>
+								</div>
+							</div>
+							<h5>earum rerum hic</h5>
+							<p>temporibus audem quibusdam</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-6" >
+						<div class="portfolio-text" >
+							<div class="portfolio-image-container">
+								<div id="portfolio2" class="portfolio-image">
+									<div class="plusik">
+									<a href="#"><i class="fa fa-plus fa-3x" aria-hidden="true"></i></a></div>
+								</div>
+							</div>
+							<h5>earum rerum hic</h5>
+							<p>temporibus audem quibusdam</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-6" >
+						<div class="portfolio-text" >
+							<div class="portfolio-image-container">
+								<div id="portfolio3" class="portfolio-image">
+									<div class="plusik">
+									<a href="#"><i class="fa fa-plus fa-3x" aria-hidden="true"></i></a></div>
+								</div>
+							</div>
+							<h5>earum rerum hic</h5>
+							<p>temporibus audem quibusdam</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-6" >
+						<div class="portfolio-text" >
+							<div class="portfolio-image-container">
+								<div id="portfolio4" class="portfolio-image">
+									<div class="plusik">
+									<a href="#"><i class="fa fa-plus fa-3x" aria-hidden="true"></i></a></div>
+								</div>
+							</div>
+							<h5>earum rerum hic</h5>
+							<p>temporibus audem quibusdam</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-6" >
+						<div class="portfolio-text" >
+							<div class="portfolio-image-container">
+								<div id="portfolio5" class="portfolio-image">
+									<div class="plusik">
+									<a href="#"><i class="fa fa-plus fa-3x" aria-hidden="true"></i></a></div>
+								</div>
+							</div>
+							<h5>earum rerum hic</h5>
+							<p>temporibus audem quibusdam</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-6" >
+						<div class="portfolio-text" >
+							<div class="portfolio-image-container">
+								<div id="portfolio6" class="portfolio-image">
+									<div class="plusik">
+									<a href="#"><i class="fa fa-plus fa-3x" aria-hidden="true"></i></a></div>
+								</div>
+							</div>
+							<h5>earum rerum hic</h5>
+							<p>temporibus audem quibusdam</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	
+	
+	
+	
+	
+	
+	<!----------------portfolio end -------------->
 	<script src="js/jquery-3.1.1.min.js"></script>
 	<script src="js/jquery-ui.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
